@@ -836,7 +836,7 @@ void drawClockScreen() {
   display.setTextColor(SSD1306_WHITE);
   
   // Nagłówek
-  display.setCursor(26, 2); 
+  display.setCursor(18, 2); 
   printlnPL("AKTUALNY CZAS", 1); 
   display.drawFastHLine(0, 12, 128, SSD1306_WHITE);
 
